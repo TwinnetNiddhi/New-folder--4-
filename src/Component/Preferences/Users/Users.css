@@ -1,0 +1,554 @@
+#dashboard-page .project .body .form-group.projectId {
+    max-width: 191px;
+}
+
+
+#dashboard-page .project .body .form-group.prjectId {
+    max-width: 190px;
+}
+
+.search-icon-set {
+    bottom: 4px;
+    right: 8px;
+}
+
+.pointer-cursor {
+    cursor: pointer;
+    color: var(--theme-color);
+}
+
+.text-font {
+    text-transform: capitalize;
+}
+
+
+.font-weight-all-filed{
+    font-weight:600 ;
+}
+.height-set {
+    margin-top: 8px;
+}
+
+.table-loader {
+    display: flex;
+    justify-content: center;
+    top: 0;
+}
+
+/* LOOK NEW CSS */
+
+.paltform-center-data {
+    display: flex;
+    width: 112px;
+    padding: 16px 20px;
+}
+
+.br-data {
+    padding-right: 10px;
+}
+
+.form-space {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-self: stretch;
+}
+
+.date-format-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+    align-self: stretch;
+}
+
+.loading-avatar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.search-input-loader{
+    height: 30px;
+}
+.search-button-loader{
+    height: 20px;
+}
+
+:where(.css-dev-only-do-not-override-18iikkb).ant-spin-sm .ant-spin-dot {
+    font-size: 13px;
+    top: -12px;
+}
+
+.date-format {
+    margin-top: 8px;
+}
+
+.required {
+    color: red;
+    font-size: 16px; /* Increase the font size */
+    line-height: 1; /* Adjust line height for vertical alignment */
+    margin-left: 2px; /* Add some space between label text and asterisk */
+  }
+  
+
+  
+  .square-avatar {
+    width: 64px; /* Set the width to your desired size */
+    height: 64px; /* Set the height to your desired size */
+    border-radius: 0; /* Set the border-radius to 0 to achieve a square shape */
+  }
+  
+  
+
+.skeleton-line {
+    height: 23px;
+    width: 100%; 
+}
+
+@keyframes loading {
+    0% {
+        background-position: -200% 0;
+    }
+    100% {
+        background-position: 200% 0;
+    }
+}
+
+:where(.css-dev-only-do-not-override-3mqfnx).ant-select-single {
+    font-size: 14px;
+    height: 34px;
+}
+
+:where(.css-dev-only-do-not-override-18iikkb).ant-table-wrapper .ant-table.ant-table-small .ant-table-title, :where(.css-dev-only-do-not-override-18iikkb).ant-table-wrapper .ant-table.ant-table-small .ant-table-footer, :where(.css-dev-only-do-not-override-18iikkb).ant-table-wrapper .ant-table.ant-table-small .ant-table-cell, :where(.css-dev-only-do-not-override-18iikkb).ant-table-wrapper .ant-table.ant-table-small .ant-table-thead>tr>th, :where(.css-dev-only-do-not-override-18iikkb).ant-table-wrapper .ant-table.ant-table-small .ant-table-tbody>tr>th, :where(.css-dev-only-do-not-override-18iikkb).ant-table-wrapper .ant-table.ant-table-small .ant-table-tbody>tr>td, :where(.css-dev-only-do-not-override-18iikkb).ant-table-wrapper .ant-table.ant-table-small tfoot>tr>th, :where(.css-dev-only-do-not-override-18iikkb).ant-table-wrapper .ant-table.ant-table-small tfoot>tr>td {
+    padding: 1px 8px;
+}
+
+@media (max-width: 767px) {
+    #dashboard-page .project .body .form-group.projectId {
+        max-width: 191px;
+    }
+    
+    
+    #dashboard-page .project .body .form-group.prjectId {
+        max-width: 190px;
+    }
+    
+    .search-icon-set {
+        bottom: 4px;
+        right: 8px;
+    }
+    
+    .pointer-cursor {
+        cursor: pointer;
+        color: var(--theme-color);
+    }
+    
+    .text-font {
+        text-transform: capitalize;
+    }
+    
+    
+    .font-weight-all-filed{
+        font-weight:600 ;
+    }
+    .height-set {
+        margin-top: 8px;
+    }
+    
+    .table-loader {
+        display: flex;
+        justify-content: center;
+        top: 0;
+    }
+    
+    /* LOOK NEW CSS */
+    
+    .paltform-center-data {
+        display: flex;
+        width: 112px;
+        padding: 16px 20px;
+    }
+    
+    .br-data {
+        padding-right: 10px;
+    }
+    
+    .form-space {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        align-self: stretch;
+    }
+    
+    .date-format-search {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        margin-top: 8px;
+        align-self: stretch;
+    }
+    
+    .loading-avatar{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    :where(.css-dev-only-do-not-override-18iikkb).ant-spin-sm .ant-spin-dot {
+        font-size: 13px;
+        right: 4px;
+        top: -17px;
+    }
+    
+    :where(.css-dev-only-do-not-override-18iikkb).ant-select .ant-select-arrow {
+        display: flex;
+        align-items: center;
+        color: rgba(0, 0, 0, 0.25);
+        font-style: normal;
+        line-height: 1;
+        text-align: center;
+        text-transform: none;
+        vertical-align: -0.125em;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        position: absolute;
+        top: 62%;
+        inset-inline-start: auto;
+        inset-inline-end: 11px;
+        height: 12px;
+        margin-top: -6px;
+        font-size: 12px;
+        pointer-events: none;
+    }
+    
+    .date-format {
+        margin-top: 8px;
+    }
+    
+    .required {
+        color: red;
+        font-size: 16px; /* Increase the font size */
+        line-height: 1; /* Adjust line height for vertical alignment */
+        margin-left: 2px; /* Add some space between label text and asterisk */
+      }
+      .square-avatar {
+        width: 64px; /* Set the width to your desired size */
+        height: 64px; /* Set the height to your desired size */
+        border-radius: 0; /* Set the border-radius to 0 to achieve a square shape */
+      }
+    .skeleton-line {
+        height: 23px;
+        width: 100%; 
+    }
+    
+    :where(.css-dev-only-do-not-override-3mqfnx).ant-select-single {
+        font-size: 14px;
+        height: 36px;
+    }
+
+    @keyframes loading {
+        0% {
+            background-position: -200% 0;
+        }
+        100% {
+            background-position: 200% 0;
+        }
+    }
+    
+    
+    :where(.css-dev-only-do-not-override-18iikkb).ant-table-wrapper .ant-table.ant-table-small .ant-table-title, :where(.css-dev-only-do-not-override-18iikkb).ant-table-wrapper .ant-table.ant-table-small .ant-table-footer, :where(.css-dev-only-do-not-override-18iikkb).ant-table-wrapper .ant-table.ant-table-small .ant-table-cell, :where(.css-dev-only-do-not-override-18iikkb).ant-table-wrapper .ant-table.ant-table-small .ant-table-thead>tr>th, :where(.css-dev-only-do-not-override-18iikkb).ant-table-wrapper .ant-table.ant-table-small .ant-table-tbody>tr>th, :where(.css-dev-only-do-not-override-18iikkb).ant-table-wrapper .ant-table.ant-table-small .ant-table-tbody>tr>td, :where(.css-dev-only-do-not-override-18iikkb).ant-table-wrapper .ant-table.ant-table-small tfoot>tr>th, :where(.css-dev-only-do-not-override-18iikkb).ant-table-wrapper .ant-table.ant-table-small tfoot>tr>td {
+        padding: 1px 8px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #dashboard-page .project .body .form-group.projectId {
+        max-width: 191px;
+    }
+    
+    
+    #dashboard-page .project .body .form-group.prjectId {
+        max-width: 190px;
+    }
+    
+    .search-icon-set {
+        bottom: 4px;
+        right: 8px;
+    }
+    
+    .pointer-cursor {
+        cursor: pointer;
+        color: var(--theme-color);
+    }
+    
+    .text-font {
+        text-transform: capitalize;
+    }
+    :where(.css-dev-only-do-not-override-3mqfnx).ant-select-single {
+    font-size: 14px;
+    height: 36px;
+}
+    
+    .font-weight-all-filed{
+        font-weight:600 ;
+    }
+    .height-set {
+        margin-top: 8px;
+    }
+    
+    .table-loader {
+        display: flex;
+        justify-content: center;
+        top: 0;
+    }
+    
+    /* LOOK NEW CSS */
+    
+    .paltform-center-data {
+        display: flex;
+        width: 112px;
+        padding: 16px 20px;
+    }
+    
+    .br-data {
+        padding-right: 10px;
+    }
+    
+    .form-space {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        align-self: stretch;
+    }
+    
+    .date-format-search {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        margin-top: 8px;
+        align-self: stretch;
+    }
+    
+    .loading-avatar{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    :where(.css-dev-only-do-not-override-18iikkb).ant-spin-sm .ant-spin-dot {
+        font-size: 13px;
+        right: 4px;
+        top: -17px;
+    }
+    
+    :where(.css-dev-only-do-not-override-18iikkb).ant-select .ant-select-arrow {
+        display: flex;
+        align-items: center;
+        color: rgba(0, 0, 0, 0.25);
+        font-style: normal;
+        line-height: 1;
+        text-align: center;
+        text-transform: none;
+        vertical-align: -0.125em;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        position: absolute;
+        top: 62%;
+        inset-inline-start: auto;
+        inset-inline-end: 11px;
+        height: 12px;
+        margin-top: -6px;
+        font-size: 12px;
+        pointer-events: none;
+    }
+    
+    .date-format {
+        margin-top: 8px;
+    }
+    
+    .required {
+        color: red;
+        font-size: 16px; /* Increase the font size */
+        line-height: 1; /* Adjust line height for vertical alignment */
+        margin-left: 2px; /* Add some space between label text and asterisk */
+      }
+    
+      .square-avatar {
+        width: 64px; /* Set the width to your desired size */
+        height: 64px; /* Set the height to your desired size */
+        border-radius: 0; /* Set the border-radius to 0 to achieve a square shape */
+      }
+      
+    .skeleton-line {
+        height: 23px;
+        width: 100%; 
+    }
+    
+    @keyframes loading {
+        0% {
+            background-position: -200% 0;
+        }
+        100% {
+            background-position: 200% 0;
+        }
+    }
+    
+    
+    :where(.css-dev-only-do-not-override-18iikkb).ant-table-wrapper .ant-table.ant-table-small .ant-table-title, :where(.css-dev-only-do-not-override-18iikkb).ant-table-wrapper .ant-table.ant-table-small .ant-table-footer, :where(.css-dev-only-do-not-override-18iikkb).ant-table-wrapper .ant-table.ant-table-small .ant-table-cell, :where(.css-dev-only-do-not-override-18iikkb).ant-table-wrapper .ant-table.ant-table-small .ant-table-thead>tr>th, :where(.css-dev-only-do-not-override-18iikkb).ant-table-wrapper .ant-table.ant-table-small .ant-table-tbody>tr>th, :where(.css-dev-only-do-not-override-18iikkb).ant-table-wrapper .ant-table.ant-table-small .ant-table-tbody>tr>td, :where(.css-dev-only-do-not-override-18iikkb).ant-table-wrapper .ant-table.ant-table-small tfoot>tr>th, :where(.css-dev-only-do-not-override-18iikkb).ant-table-wrapper .ant-table.ant-table-small tfoot>tr>td {
+        padding: 1px 8px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+    #dashboard-page .project .body .form-group.projectId {
+        max-width: 191px;
+    }
+    
+    #dashboard-page .project .body .form-group.prjectId {
+        max-width: 190px;
+    }
+    
+    .search-icon-set {
+        bottom: 4px;
+        right: 8px;
+    }
+    
+    .pointer-cursor {
+        cursor: pointer;
+        color: var(--theme-color);
+    }
+    
+    .text-font {
+        text-transform: capitalize;
+    }
+    
+    .font-weight-all-filed{
+        font-weight:600 ;
+    }
+    .height-set {
+        margin-top: 8px;
+    }
+    :where(.css-dev-only-do-not-override-3mqfnx).ant-select-single {
+        font-size: 14px;
+        height: 36px;
+    }
+    .table-loader {
+        display: flex;
+        justify-content: center;
+        top: 0;
+    }
+    
+    /* LOOK NEW CSS */
+    
+    .paltform-center-data {
+        display: flex;
+        width: 112px;
+        padding: 16px 20px;
+    }
+    
+    .br-data {
+        padding-right: 10px;
+    }
+    
+    .form-space {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        align-self: stretch;
+    }
+    
+    .date-format-search {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        margin-top: 8px;
+        align-self: stretch;
+    }
+    
+    .loading-avatar{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    :where(.css-dev-only-do-not-override-18iikkb).ant-spin-sm .ant-spin-dot {
+        font-size: 13px;
+        right: 4px;
+        top: -17px;
+    }
+    
+    :where(.css-dev-only-do-not-override-18iikkb).ant-select .ant-select-arrow {
+        display: flex;
+        align-items: center;
+        color: rgba(0, 0, 0, 0.25);
+        font-style: normal;
+        line-height: 1;
+        text-align: center;
+        text-transform: none;
+        vertical-align: -0.125em;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        position: absolute;
+        top: 62%;
+        inset-inline-start: auto;
+        inset-inline-end: 11px;
+        height: 12px;
+        margin-top: -6px;
+        font-size: 12px;
+        pointer-events: none;
+    }
+    
+    .date-format {
+        margin-top: 8px;
+    }
+    
+    .required {
+        color: red;
+        font-size: 16px; /* Increase the font size */
+        line-height: 1; /* Adjust line height for vertical alignment */
+        margin-left: 2px; /* Add some space between label text and asterisk */
+      }
+
+      .square-avatar {
+        width: 64px; /* Set the width to your desired size */
+        height: 64px; /* Set the height to your desired size */
+        border-radius: 0; /* Set the border-radius to 0 to achieve a square shape */
+      }
+       
+    .skeleton-line {
+        height: 23px;
+        width: 100%; 
+    }
+    
+    @keyframes loading {
+        0% {
+            background-position: -200% 0;
+        }
+        100% {
+            background-position: 200% 0;
+        }
+    }
+    
+    
+    :where(.css-dev-only-do-not-override-18iikkb).ant-table-wrapper .ant-table.ant-table-small .ant-table-title, :where(.css-dev-only-do-not-override-18iikkb).ant-table-wrapper .ant-table.ant-table-small .ant-table-footer, :where(.css-dev-only-do-not-override-18iikkb).ant-table-wrapper .ant-table.ant-table-small .ant-table-cell, :where(.css-dev-only-do-not-override-18iikkb).ant-table-wrapper .ant-table.ant-table-small .ant-table-thead>tr>th, :where(.css-dev-only-do-not-override-18iikkb).ant-table-wrapper .ant-table.ant-table-small .ant-table-tbody>tr>th, :where(.css-dev-only-do-not-override-18iikkb).ant-table-wrapper .ant-table.ant-table-small .ant-table-tbody>tr>td, :where(.css-dev-only-do-not-override-18iikkb).ant-table-wrapper .ant-table.ant-table-small tfoot>tr>th, :where(.css-dev-only-do-not-override-18iikkb).ant-table-wrapper .ant-table.ant-table-small tfoot>tr>td {
+        padding: 1px 8px;
+    }
+}
+
+:where(.css-dev-only-do-not-override-3mqfnx).ant-typography, :where(.css-dev-only-do-not-override-3mqfnx).ant-typography p {
+    margin-bottom: 1em;
+    justify-content: space-between;
+}
+
+:where(.css-dev-only-do-not-override-3mqfnx).ant-btn.ant-btn-icon-only .anticon {
+    font-size: 16px;
+    color: black;
+}
+:where(.css-dev-only-do-not-override-3mqfnx).ant-select .ant-select-arrow {
+    color: black;
+}
+:where(.css-dev-only-do-not-override-3mqfnx).ant-table-wrapper .ant-table-column-sorter {
+    color: black;
+}

@@ -1,0 +1,74 @@
+/* Increase specificity by using a parent selector */
+.custom-timeline-item.selected-text {
+    background-color: rgb(63, 138, 230) !important;
+    color: white !important;
+    cursor: pointer;
+}
+.selected-text {
+    background-color: rgb(63, 138, 230) !important;
+    color: white !important;
+    width: 150px; /* Adjust the width as needed */
+    border-radius: 5px; /* Add border radius as needed */
+    padding: 10px;
+    cursor: pointer;
+}
+.no-data-message-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Adjust the height as needed */
+  }
+  .capital-text{
+    text-transform: capitalize;
+  }
+  .pointer-data{
+    cursor: pointer;
+  }
+.device_id_bold{
+  font-weight: 900;
+}
+.cursor_pointer_class{
+  cursor: pointer;
+}
+.menu-image.highlighted {
+  background-color: red; /* Change this to your desired color */
+}
+:where(.css-dev-only-do-not-override-18iikkb).ant-collapse>.ant-collapse-item >.ant-collapse-header {
+  position: relative;
+  display: none;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  padding: 12px 16px;
+  color: rgba(0, 0, 0, 0.88);
+  line-height: 1.5714285714285714;
+  cursor: pointer;
+  transition: all 0.3s,visibility 0s;
+}
+:where(.css-dev-only-do-not-override-3mqfnx).ant-collapse-borderless >.ant-collapse-item:last-child {
+  border-bottom: 0;
+  background: white;
+}
+:where(.css-dev-only-do-not-override-3mqfnx).ant-collapse>.ant-collapse-item >.ant-collapse-header .ant-collapse-arrow svg {
+  transition: transform 0.3s;
+  display: none;
+}
+:where(.css-dev-only-do-not-override-3mqfnx).ant-collapse>.ant-collapse-item >.ant-collapse-header .ant-collapse-expand-icon {
+  display: flex;
+  align-items: center;
+  padding-inline-end: 12px;
+  background: white;
+}
+:where(.css-dev-only-do-not-override-18iikkb).ant-collapse-borderless >.ant-collapse-item>.ant-collapse-content {
+  background-color: white;
+  border-top: 0;
+}
+.selected-item {
+  background-color: #f0f0f0;
+}
+.date-width-fix {
+  flex: 0 0 auto;
+  width: 19.666667%;
+}
+.font-width-fix{
+  font-size: 10px !important;
+}

@@ -1,0 +1,46 @@
+
+.skeleton-loader {
+    background-color: #f0f0f0;
+    animation: loading 1.5s infinite;
+}
+
+/* SkeletonLoader.css */
+
+.skeleton-line {
+    height: 23px;
+    width: 119%; 
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: loading 1.5s infinite;
+}
+.skeleton-line-employee{
+    height: 23px;
+    width: 116%; /* Set the width to 100% */
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: loading 1.5s infinite;
+}
+.skeleton-line-trending{
+    height: 23px;
+    width: 105%; /* Set the width to 100% */
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: loading 1.5s infinite;
+}
+.skeleton-line-account-history{
+    height: 23px;
+    width: 100%; /* Set the width to 100% */
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: loading 1.5s infinite;
+}
+
+
+@keyframes loading {
+    0% {
+        background-position: -200% 0;
+    }
+    100% {
+        background-position: 200% 0;
+    }
+}

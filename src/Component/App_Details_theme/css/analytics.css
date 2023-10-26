@@ -1,0 +1,407 @@
+/*main col*/
+#analytics-page .col-lg-9.header-custom-col{
+	width: 82.33%;
+	transition: 0.3s;
+}
+#analytics-page .col-lg-9.header-custom-col.expand{
+	width: 95%;
+}
+
+#analytics-page .top-header{
+	background: #fff;
+	padding: 8px 20px;
+	border: 1px solid #DADCDF;
+	border-radius: 8px;
+} 
+#analytics-page .top-header .left .text{
+	margin-left: 7px;
+}
+#analytics-page .top-header .left h3{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #444444;
+}
+#analytics-page .top-header .left .text p{
+	color: #969696;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 22px;
+}
+#analytics-page .top-header .left .text p a.copy{
+	margin-left: 4px;
+	display: flex;
+	align-items: center;
+}
+#analytics-page .top-header .left .text p a.copy i{
+	color: var(--theme-color);
+	font-size: 12px;
+}
+#analytics-page .top-header .left .text p a.playstore{
+	margin-left: 7px;
+}
+#analytics-page .top-header .left .text p a.playstore img{
+	max-width: 14px;
+}
+#analytics-page .top-header .right .notification{
+	margin-right: 28px;
+	position: relative;
+	transition: 0.3s;
+}
+#analytics-page .top-header .right .notification svg.main-svg{
+	cursor: pointer;	
+}
+#analytics-page .top-header .right .notification:hover svg.main-svg path{
+	fill: var(--theme-color);
+}
+#analytics-page .top-header .right .notification .no{
+	background: #FF4D4F;
+	border-radius: 100%;
+	height: 19px;
+	width: 19px;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	right: -11px;
+	top: -11px;
+	font-size: 13px;
+	font-weight: 700;
+	cursor: pointer;
+}
+#analytics-page .top-header .right a{
+	margin-right: 24px;
+}
+#analytics-page .top-header .right a i{
+	font-size: 24px;
+	color: #777777;
+	transition: 0.3s;
+}
+#analytics-page .top-header .right a:hover i{
+	color: var(--theme-color);
+}
+
+
+/*user-lookup*/
+#analytics-page .user-lookup{
+	background: #fff;
+	border: 1px solid #DADCDF;
+	border-radius: 8px;
+	padding: 20px;
+}
+#analytics-page .user-lookup h2{
+	color: var(--theme-color);
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 24px;
+	padding-bottom: 6px;
+	border-bottom: 1px dashed #848484;
+	display: inline;
+}
+#analytics-page .user-lookup .body{
+	/* margin-top: 32px; */
+	margin-top: 16px;
+}
+#analytics-page .user-lookup .body .form-group{
+	margin-right: 20px;
+	width: 100%;
+}
+#analytics-page .user-lookup .body .form-group label{
+	font-size: 14px;
+	color: var(--heading-color);
+	font-weight: 600;
+}
+#analytics-page .user-lookup .body .form-group .form-control{
+	border-radius: 6px;
+	border: 1px solid #D4D4D4;
+	padding: 8px 14px;
+	margin-top: 8px;
+	box-shadow: none;
+	transition: 0.3s;
+	color: #333;
+	height: 38px;
+	font-size: 14px;
+	font-weight: 500;
+}
+#analytics-page .user-lookup .body .form-group .form-control::placeholder{
+	color: #888;
+	font-weight: 400;
+}
+#analytics-page .user-lookup .body .form-group .form-control:focus{
+	border-color: var(--theme-color);
+}
+#analytics-page .user-lookup .body .form-group.appname{
+	/* max-width: 215px; */
+	max-width: 226px;
+}
+#analytics-page .user-lookup .body .form-group.country{
+	max-width: 222px;
+}
+#analytics-page .user-lookup .body .form-group.date{
+	/* max-width: 175px; */
+	max-width: 221px;
+}
+#analytics-page .user-lookup .body .form-group .form-select{
+	color: #888 !important;
+}
+@media (max-width: 767px) {
+	#analytics-page .col-lg-9.header-custom-col{
+		width: 100%;
+	}
+	#analytics-page .user-lookup{
+		padding: 10px;
+	}
+	#analytics-page .user-lookup h2{
+		font-size: 14px;
+	}
+	#analytics-page .user-lookup .body .form-group{
+		max-width: 100% !important;
+		margin-right: 0;
+		margin-top: 10px;
+	}
+	#analytics-page .user-lookup .body{
+		margin-top: 10px;
+	}
+	#analytics-page .user-lookup .body .form-group label{
+		font-size: 12px;
+	}
+	#analytics-page .user-lookup .body .form-group .form-control{
+		margin-top: 5px;
+		font-size: 12px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	#analytics-page .col-lg-9.header-custom-col{
+		width: 100%;
+	}
+	#analytics-page .user-lookup{
+		padding: 15px;
+	}
+	#analytics-page .user-lookup h2{
+		font-size: 16px;
+	}
+	#analytics-page .user-lookup .body{
+		margin-top: 20px;
+	}
+	#analytics-page .user-lookup .body .form-group label{
+		font-size: 12px;
+	}
+	#analytics-page .user-lookup .body .form-group .form-control{
+		margin-top: 4px;
+		font-size: 12px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1400px) {
+	#analytics-page .user-lookup{
+		padding: 15px;
+	}
+	#analytics-page .user-lookup h2{
+		font-size: 16px;
+	}
+	#analytics-page .user-lookup .body{
+		margin-top: 20px;
+	}
+	#analytics-page .user-lookup .body .form-group label{
+		font-size: 12px;
+	}
+	#analytics-page .user-lookup .body .form-group{
+		max-width: 300px;
+	}
+	#analytics-page .user-lookup .body .form-group .form-control{
+		margin-top: 4px;
+		font-size: 12px;
+	}
+}
+
+
+/*main table*/
+#analytics-page .maintable{
+	margin-top: 10px;
+	/* padding: 24px; */
+	padding: 20px;
+	background: #fff;
+	border-radius: 8px;
+	border: 1px solid #DADCDF;
+}
+#analytics-page .maintable .body .tablein{
+	border-collapse: collapse;
+}
+#analytics-page .maintable .body .tablein thead{
+	position: sticky;
+	top: 0;
+}
+#analytics-page .maintable .body .tablein thead tr th{
+	background: #EEE;
+	border-bottom: 1px solid #F3F3F3;
+	position: relative;
+	font-size: 14px;
+	padding: 12px 10px;
+	font-weight: 500;
+}
+#analytics-page .maintable .body .tablein thead tr th:before{
+	content: '';
+	position: absolute;
+	height: 60%;
+	width: 1px;
+	background: #E6E6E6;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+#analytics-page .maintable .body .tablein tbody tr {
+	color: #3C4043;
+	font-size: 14px;
+	font-weight: 500;
+	border-bottom: 1px solid #F3F3F3;
+	vertical-align: middle;
+	padding: 13px 20px;
+}
+#analytics-page .maintable .body .tablein tbody tr .img img{
+	max-width: 45px;
+}
+#analytics-page .maintable .body .tablein tbody tr .info{
+	margin-left: 18px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+#analytics-page .maintable .body .tablein tbody tr .info h4{
+	color: #3C4043;
+	font-size: 14px;
+	font-weight: 500;
+}
+#analytics-page .maintable .body .tablein tbody tr .info p{
+	color: #848484;
+	font-size: 12px;
+	font-weight: 500;
+}
+#analytics-page .maintable .body .tablein tbody tr td.name .full{
+	font-size: 14px;
+	color: #3C4043;
+	font-weight: 500;
+}
+#analytics-page .maintable .body .tablein tbody tr td.name .short{
+	color: #848484;
+	font-size: 14px;
+	font-weight: 500;
+}
+#analytics-page .maintable .body .tablein tbody tr td.name img{
+	max-width: 28px;
+	margin-right: 6px;
+}
+#analytics-page .maintable .body .tablein tbody tr td.platform{
+	text-align: center;
+	font-size: 20px;
+}
+#analytics-page .maintable .body .tablein tbody tr td.platform i{
+	color: #666666;
+}
+#analytics-page .maintable .body .tablein tbody tr span{
+	font-size: 16px;
+	/* color: var(--theme-color); */
+	font-weight: 500;
+}
+#analytics-page .maintable .body .tablein tbody tr a i{
+	font-size: 20px;
+	color: #999999;
+	margin-left: 5px;
+}
+#analytics-page .maintable .body .tablein tbody tr td.brandname h4{
+	color: #848484;
+	font-weight: 500;
+	font-size: 14px;
+}
+#analytics-page .maintable .body .tablein tbody tr td.date{
+	color: #3C4043;
+	font-size: 14px;
+	font-weight: 500;
+}
+#analytics-page .maintable .footer{
+	margin-top: 10px;
+}
+@media (max-width: 767px) {
+	#analytics-page .maintable{
+		padding: 12px;
+	}
+	#analytics-page .maintable .body .tablein{
+		width: 1200px;
+	}
+	#analytics-page .maintable .body .tablein thead tr th{
+		padding: 6px 5px;
+		font-size: 10px;
+	}
+	#analytics-page .maintable .body .tablein tbody tr td{
+		padding: 2px 10px;
+	}
+	#analytics-page .maintable .body .tablein tbody tr .img img{
+		max-width: 30px;
+	}
+	#analytics-page .maintable .body .tablein tbody tr .info h4{
+		font-size: 12px;
+	}
+	#analytics-page .maintable .body .tablein tbody tr .info p{
+		font-size: 10px;
+	}
+	#analytics-page .maintable .body .tablein tbody tr .info{
+		margin-left: 10px;
+	}
+	#analytics-page .maintable .body .tablein tbody tr img{
+		max-width: 20px;
+	}
+	#analytics-page .maintable .body .tablein tbody tr .full{
+		font-size: 12px;
+	}
+	#analytics-page .maintable .body .tablein tbody tr .short{
+		font-size: 12px;
+	}
+	#analytics-page .maintable .body .tablein tbody tr td.platform{
+		font-size: 16px;
+	}
+	#analytics-page .maintable .body .tablein tbody tr span{
+		font-size: 12px;
+	}
+	#analytics-page .maintable .body .tablein tbody tr td.brandname h4{
+		font-size: 12px;
+	}
+	#analytics-page .maintable .body .tablein tbody tr td.date{
+		font-size: 12px;
+		text-align: center;
+	}
+	#analytics-page .maintable .body .tablein tbody tr a i{
+		font-size: 16px;
+	}
+}
+@media (min-width: 768px) and (max-width: 1900px) {
+	#analytics-page .maintable{
+		padding: 15px;
+	}
+	#analytics-page .maintable .body .tablein{
+		/* width: 1200px; */
+	}
+	#analytics-page .maintable .body .tablein tbody tr {
+		padding: 10px;
+	}
+	#analytics-page .maintable .body .tablein tbody tr .info h4{
+		font-size: 10px;
+	}
+	#analytics-page .maintable .body .tablein tbody tr .info p{
+		font-size: 10px;
+	}
+	#analytics-page .maintable .body .tablein tbody tr .img img{
+		max-width: 30px;
+	}
+	#analytics-page .maintable .body .tablein tbody tr .info{
+		margin-left: 10px;
+	}
+	#analytics-page .maintable .body .tablein tbody tr img{
+		max-width: 20px;
+	}
+	#analytics-page .maintable .body .tablein thead tr th{
+		padding: 10px 5px;
+		font-size: 10px;
+	}
+	#analytics-page .maintable .body .tablein tbody tr td.date{
+		text-align: center;
+	}
+}

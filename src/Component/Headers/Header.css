@@ -1,0 +1,68 @@
+.event-menu {
+    display: none;
+  }
+  
+  .event-menu.open {
+    display: block;
+  }
+.event-menu {
+  display: none;
+}
+
+.event-menu.show {
+  display: block;
+}
+
+.event-menu.hide {
+  display: none;
+}
+.date-font{
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.highlight {
+  background: var(--selected-shade);
+  color: var(--theme-color); /* Example: Change background color to yellow */
+  font-weight: bold; /* Example: Make the text bold */
+}
+
+/* Highlighted style */
+.device-id.highlighted {
+  background: var(--selected-shade);
+  /* Add any other styles you want for highlighted state */
+}
+
+/* Normal style */
+.device-id {
+  background-color: transparent; /* Or the default background color */
+}
+
+/* CSS stylesheet */
+.menu-image-container.highlighted-image {
+  background: var(--selected-shade);
+  color: var(--theme-color); /* Example: Change background color to yellow */
+  font-weight: bold; /* Example: Make the text bold */
+}
+.highlighted-image{
+  background: var(--selected-shade);
+  color: var(--theme-color); /* Example: Change background color to yellow */
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+.emojit{
+  font-size: 30px;
+}
+.cursor_pointer{
+  cursor: pointer;
+}
+.font-weigth-text{
+  background: #F5F5F5;
+  padding: 4px;
+  color: #555555;
+  font-size: 14px;
+  font-weight: 500;
+}

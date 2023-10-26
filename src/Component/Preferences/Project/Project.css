@@ -1,0 +1,293 @@
+.edit-className {
+    width: 29px;
+    height: 22px;
+    flex-shrink: 0;
+}
+
+.delete-className {
+    width: 29px;
+    height: 22px;
+    flex-shrink: 0;
+}
+
+.platform-className {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
+.main-packagename {
+    display: flex;
+    align-items: center;
+    /* Vertically center items */
+    color: #3C4043;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    /* 157.143% */
+}
+
+.main-packagename span:first-child {
+    flex-grow: 1;
+    /* Allow the text to grow and take available space */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /* Prevent text from wrapping */
+    margin-right: 8px;
+    /* Add space between text and copy icon */
+}
+
+.copy-icon {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+}
+
+.main-packagename-api {
+    display: flex;
+    align-items: center;
+    color: #3C4043;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.api-key-text {
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.copy-icon-1 {
+    /* margin-left: 4px;  */
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+}
+
+.body-row {
+    color: #3C4043;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    /* 157.143% */
+    overflow: auto;
+    height: 100%;
+    scroll-behavior: auto;
+}
+
+/* Add this CSS to center the text in the cells */
+.ant-table-cell.centered-cell {
+    text-align: center;
+}
+
+/* Increase specificity to target the table header */
+/* Increase specificity to target the table header */
+/* .ant-table .ant-table-thead th {
+    height: 50px;
+} */
+
+.shortName-name {
+    text-transform: capitalize;
+}
+
+.no-className {
+    color: #3C4043;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    /* 157.143% */
+}
+
+.anticon-copy::before {
+    color: red;
+    /* Change this to the desired color */
+}
+
+.appname-project {
+    display: flex;
+    width: 350px;
+    padding: 2px 7px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+/* Increase specificity to target the table header */
+/* .ant-table-thead > tr > th.ant-table-cell {
+    background-color: #F5F5F5 !important;
+  } */
+  
+.image-pdf-logo{
+     height: 45px;
+     width: 45px;
+}
+/* div:where(.css-dev-only-do-not-override-190m0jy).ant-typography, :where(.css-dev-only-do-not-override-190m0jy).ant-typography p {
+    margin-bottom: 1;
+    justify-content: space-between;
+} */
+.ant-typography .justify-content-between .svg_flex {}
+
+div:where(.css-dev-only-do-not-override-18iikkb).ant-typography,
+:where(.css-dev-only-do-not-override-18iikkb).ant-typography p {
+    margin-bottom: 0;
+    justify-content: space-between;
+}
+
+.color-span {
+    color: blue;
+}
+
+.custom-icon {
+    color: red;
+    margin-right: 8px;
+}
+
+/* CSS styles */
+.table-loader {
+    display: flex;
+    justify-content: center;
+    /* Center the loader horizontally */
+    align-items: center;
+    /* Center the loader vertically */
+    height: 100px;
+    /* Adjust the height as needed */
+    margin-top: 15px;
+    /* Adjust the top margin as needed */
+}
+
+.svg_flex {
+    display: flex;
+}
+
+.apikey_color {
+    color: black;
+}
+
+.toggle-button {
+    font-size: 20px;
+}
+
+.custom-option {
+    display: flex;
+    align-items: center;
+    /* Vertically align icon and text */
+    gap: 8px;
+    /* Adjust the spacing as needed */
+}
+
+.desktop-icon-margin {
+    margin-right: 5px;
+}
+
+.switch_width {
+    font-size: 5px;
+}
+
+.img-project-redords {
+    width: 45px;
+    height: 45px;
+    border-radius: 4px;
+}
+
+.d-flex-project {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.name-shortname {
+    color: var(--text-colors-body-text-color, #3C4043);
+
+    /* All page text style/Body text 2 */
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    /* 157.143% */
+}
+
+.project-id-redords{
+    color: var(--text-colors-description-text-color, #4B5058);
+
+/* All page text style/Description text 2 */
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 183.333% */
+}
+
+:where(.css-dev-only-do-not-override-18iikkb).ant-form-item {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+    list-style: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    margin-bottom: 0;
+    vertical-align: top;
+}
+
+.btn.button-color {
+    color: white !important;
+}
+
+:where(.css-dev-only-do-not-override-18iikkb).ant-btn>span {
+    display: inline-block;
+    color: white;
+}
+
+/* External CSS file or within a <style> tag */
+.label-with-space {
+    padding-bottom: 9px;
+}
+
+.label-with-space-input {
+    padding-bottom: 11px;
+}
+
+.search-loader-fix {
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    transform: translateY(-50%);
+}
+
+:where(.css-dev-only-do-not-override-3mqfnx).ant-form-item {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+    list-style: none;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    margin-bottom: 0px;
+    /* vertical-align: top; */
+}
+
+:where(.css-dev-only-do-not-override-3mqfnx).ant-table-wrapper .ant-table.ant-table-small .ant-table-title, :where(.css-dev-only-do-not-override-3mqfnx).ant-table-wrapper .ant-table.ant-table-small .ant-table-footer, :where(.css-dev-only-do-not-override-3mqfnx).ant-table-wrapper .ant-table.ant-table-small .ant-table-cell, :where(.css-dev-only-do-not-override-3mqfnx).ant-table-wrapper .ant-table.ant-table-small .ant-table-thead>tr>th, :where(.css-dev-only-do-not-override-3mqfnx).ant-table-wrapper .ant-table.ant-table-small .ant-table-tbody>tr>th, :where(.css-dev-only-do-not-override-3mqfnx).ant-table-wrapper .ant-table.ant-table-small .ant-table-tbody>tr>td, :where(.css-dev-only-do-not-override-3mqfnx).ant-table-wrapper .ant-table.ant-table-small tfoot>tr>th, :where(.css-dev-only-do-not-override-3mqfnx).ant-table-wrapper .ant-table.ant-table-small tfoot>tr>td {
+    padding: 9px 8px;
+}
+.ant-table-cell{
+	text-transform: capitalize;
+  }
+  
+.paltform-center-data {
+    display: flex;
+    width: 112px;
+    padding: 16px 20px;
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App Analytics</title>
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- common css -->
+  <link rel="stylesheet" href="App_Details_theme/css/common.css">
+  <!-- custom css -->
+  <link rel="stylesheet" href="App_Details_theme/css/userdetails.css">
+  <!-- navbar css -->
+  <link rel="stylesheet" href="App_Details_theme/css/navbar.css">
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+  <!-- remixicon -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <link rel="icon" href="%PUBLIC_URL%/Icon-Twinnet (1).png" />
+
+  <style>
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    span,
+    ul,
+    li,
+    a,
+    p,
+    label,
+    form {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+<!-- jquery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<!-- bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- custom js -->
+  <script src="App_Details_theme/js/main.js"></script>
+ 
+
+<script>
+  //   $(document).ready(function () {
+	// // page height setting
+	// var windowtop = $('#dashboard-page .top-header').outerHeight();
+	// var project = $('#dashboard-page .project').outerHeight();
+	// var projectmargin = $('#dashboard-page .project').css('margin-top');
+	// var projectrecordsmargin = $('#dashboard-page .project-records').css('margin-top');
+	// var bodyHeight = $('main').height();
+	// var mobilenav = $('.mobile-nav').height();
+
+	// mobile =  bodyHeight - mobilenav - 20;
+	// total = bodyHeight - (windowtop+project) - parseFloat(projectmargin) - parseFloat(projectrecordsmargin);
+
+	// if($(window).width() < 991) {
+	// 	$('#dashboard-page .main-dashboard').css('height', mobile);
+	// }
+	// if($(window).width() > 991) {
+	// 	$('#dashboard-page .project-records').css('height', total);
+	// }
+// });
+
+
+
+</script>
+
+<script>
+   $(document).ready(function () {
+	// page height setting
+	var windowtop = $('#user-details-page .top-header').outerHeight();
+	var projectmargin = $('#user-details-page .breadcumb').css('margin-top');
+	var bodyHeight = $('main').height();
+	var mobilenav = $('.mobile-nav').height();
+
+	var projectmarginbtm = $('#user-details-page .breadcumb').css('margin-bottom');
+	var breadcumb = $('#user-details-page .breadcumb').outerHeight();
+
+	total = bodyHeight - windowtop - parseFloat(projectmargin);
+	totalw = bodyHeight - parseFloat(mobilenav) - 20;
+	event = bodyHeight - windowtop - parseFloat(projectmargin) - parseFloat(projectmarginbtm) - breadcumb;
+	if($(window).width() > 991) {
+		$('#user-details-page .bm').css('height', total);
+		$('.detailed-menu').css('height', bodyHeight);
+		// $('#user-details-page .main-content .left-panel').css('height', event);
+	}
+	if($(window).width() < 991) {
+		$('#user-details-page .bm').css('height', totalw);
+	}
+});
+</script>
+
+<script>
+  $(document).ready(function () {
+
+	// popup width
+	if($(window).width() < 991) {
+		$('#country-popup').css('height', mobile);
+	}
+	if($(window).width() > 992) {
+		$('#country-popup').css('height', total);
+	}
+});
+</script>
+
+
+
+
+<script>
+	// page height setting
+	var windowtop = $('#users-page .top-header').outerHeight();
+	var bodyHeight = $('main').height();
+	var mobilenav = $('.mobile-nav').height();
+
+	mobile =  bodyHeight - mobilenav - 20;
+	total = bodyHeight - windowtop;
+	$('#users-page .lc').css('height', total);
+</script>
+
+
+
+</body>
+
+</html>

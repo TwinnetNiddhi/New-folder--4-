@@ -1,0 +1,39 @@
+:where(.css-dev-only-do-not-override-18iikkb).ant-cascader {
+    width: 478px;
+}
+
+.g2-tooltip{
+    box-shadow: none !important;
+}
+.chart-container {
+    position: relative;
+  }
+  
+  .loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .loading-spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Ensure it's above the chart */
+}
+.ant-cascader-menu-item-content{
+  text-transform: capitalize;
+}
+.color-blue-deviceId{
+  color: blue;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
